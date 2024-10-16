@@ -1,0 +1,88 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  font-family: Snell Roundhand, cursive;
+  padding: 20px;
+  font-size: 10px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+a:link{
+	color: green;
+}
+
+a:hover {
+  text-decoration: none;
+  color: green;
+}
+
+a:visited{
+	color: green;
+}
+
+a:focus{
+	color: green;
+}
+
+p{
+	text-indent: 25px;
+}
+
+nav li {
+  list-style-type: none;
+  margin-bottom: 2rem;
+}
+
+nav li a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 3;
+  text-align: center;
+  font-size: 2.5rem;
+  border: 1px solid #a66;
+}
