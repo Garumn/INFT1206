@@ -1,0 +1,14 @@
+html {
+  font-family: sans-serif;
+}
+
+/* Your CSS below here */
+
+div {
+	width: 300px;
+	padding: 100px;
+	text-align: center;
+	box-sizing: border-box;
+	border: 15px solid green;
+	border-radius:10px;
+}
